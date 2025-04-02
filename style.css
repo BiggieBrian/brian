@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "title";
+  src: url(/fonts/dragonlord.otf);
+}
+@font-face {
+  font-family: "hero";
+  src: url(/fonts/riseinside.otf);
+}
+body {
+  background-image: url(/images/travis.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+main {
+  height: 100vh;
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 100vh;
+}
+
+.hero {
+  height: 60vh;
+}
+.filler {
+  height: 26vh;
+}
+#pfp {
+  width: 20%;
+  border-radius: 100%;
+}
+
+.myTitle {
+  font-family: "title";
+  font-size: 4rem;
+}
+.heroText {
+  font-family: "hero";
+}
+.social-i {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-danger-rgb), var(--bs-text-opacity)) !important;
+}
+
+#about {
+  min-height: 100vh;
+}
+
+.pfp {
+  width: 25%;
+  border-radius: 100%;
+}
+
+.card {
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+}
+.me {
+  font-family: "title";
+}
+.desc {
+  text-align: justify;
+  font-family: "Montserrat";
+}
+
+#projects {
+  min-height: 100vh;
+}
+#contact {
+  min-height: 100vh;
+}
+.quick-contacts {
+  font-family: "Montserrat";
+}
