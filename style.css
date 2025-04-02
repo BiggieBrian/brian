@@ -6,11 +6,11 @@
 }
 @font-face {
   font-family: "title";
-  src: url(/dragonlord.otf);
+  src: url(/fonts/dragonlord.otf);
 }
 @font-face {
   font-family: "hero";
-  src: url(/riseinside.otf);
+  src: url(/fonts/riseinside.otf);
 }
 body {
   background-image: url(/media/bg.jpg);
